@@ -19,12 +19,15 @@ class MyAppState extends State {
       "question": "What does a baby computer call its father?",
       "answer": "Data"
     },
-    {"question": "Kako se ja zovem?", "answer": "Natalija"},
     {
-      "question": "Hoću li postati flutter developer?",
-      "answer": "naravno da da"
+      "question": "What did the ocean say to the beach?",
+      "answer": "Nothing, it just waved."
     },
-    {"question": "tko je bio u Zagrebu?", "answer": "Marko"}
+    {
+      "question": "What do you call a factory that makes okay products?",
+      "answer": "A satisfactory"
+    },
+    {"question": "How do you make 7 even?", "answer": "Take away the s"}
   ];
 
   var jokeIndex = 0;

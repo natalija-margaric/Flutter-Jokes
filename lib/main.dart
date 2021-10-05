@@ -22,26 +22,35 @@ class MyApp extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-            Text(
-              "Answer",
-              style: TextStyle(fontSize: 25),
-              textAlign: TextAlign.center,
+            Container(
+              margin: EdgeInsets.fromLTRB(25, 15, 25, 50),
+              child: Text(
+                "Answer",
+                style: TextStyle(fontSize: 25),
+                textAlign: TextAlign.center,
+              ),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                FloatingActionButton(
-                  onPressed: null,
-                  child: Icon(
-                    Icons.arrow_left_rounded,
-                    size: 50,
+                Container(
+                  margin: EdgeInsets.fromLTRB(15, 0, 15, 0),
+                  child: FloatingActionButton(
+                    onPressed: null,
+                    child: Icon(
+                      Icons.arrow_left_rounded,
+                      size: 50,
+                    ),
+                    backgroundColor: Colors.deepOrangeAccent,
                   ),
-                  backgroundColor: Colors.deepOrangeAccent,
                 ),
-                FloatingActionButton(
-                  onPressed: null,
-                  child: Icon(Icons.arrow_right_rounded, size: 50),
-                  backgroundColor: Colors.deepOrangeAccent,
+                Container(
+                  margin: EdgeInsets.fromLTRB(15, 0, 15, 0),
+                  child: FloatingActionButton(
+                    onPressed: null,
+                    child: Icon(Icons.arrow_right_rounded, size: 50),
+                    backgroundColor: Colors.deepOrangeAccent,
+                  ),
                 ),
               ],
             )
